@@ -1,4 +1,3 @@
-
 html{
   box-sizing: border-box;
   font-size: 62.5%;
@@ -15,7 +14,6 @@ input[type=number]::-webkit-inner-outer-button{
   margin:0;
 }
 
-
 .main_div{
   width:100%;
   height: 100vh;
@@ -25,7 +23,6 @@ input[type=number]::-webkit-inner-outer-button{
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 
 .center_div{
@@ -38,26 +35,20 @@ input[type=number]::-webkit-inner-outer-button{
   padding: 0;
 }
 
-
 .com_one{
   display: flex;
   text-align: center;
   justify-content: center;
   gap: 30px;
 }
+
 .com_two{
   display: flex;
   text-align: center;
   justify-content: center;
   gap:30px;
 }
-/* button{
-  font-size:55px;
- width:100px;
-  margin: 20px;
-  padding: 10px 0;
-  background-color: blueviolet;
-} */
+
 .btn{
   display:flex;
   justify-content: center;
@@ -66,6 +57,7 @@ input[type=number]::-webkit-inner-outer-button{
   gap: 30px;
   flex-direction: column;
 }
+
 button{
   background: blueviolet;
   border-radius: 1px;
@@ -74,34 +66,51 @@ button{
   height: 120px;
   font-size: 15px;
 }
+
 .addbtn:before{
-content:"+";
-line-height: 100px;
-display: block;
-margin: 0 auto;
-font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
+  content:"+";
+  line-height: 100px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 700; 
+  font-size: 42px; 
+  letter-spacing: normal;
 }
+
 .subbtn:before{
- content:"-";
-line-height: 100px;
-display: block;
-margin: 0 auto;
-font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
+  content:"-";
+  line-height: 100px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 700; 
+  font-size: 42px; 
+  letter-spacing: normal;
 }
+
 .mulbtn:before{
- content:"x";
-line-height: 100px;
-display: block;
-margin: 0 auto;
-font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
+  content:"x";
+  line-height: 100px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 700; 
+  font-size: 42px; 
+  letter-spacing: normal;
 }
+
 .divbtn:before{
- content:"/";
-line-height: 100px;
-display: block;
-margin: 0 auto;
-font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
+  content:"/";
+  line-height: 100px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 700; 
+  font-size: 42px; 
+  letter-spacing: normal;
 }
+
 button:active{
   background-color: gray;
 }
@@ -125,13 +134,14 @@ header{
   margin-bottom: 20px;
   height: 50px;
   text-align: center;
-padding-top: 10px;
+  padding-top: 10px;
+  color: white;
 }
 
 .total{
  display: flex;
  margin-left: 50px;
- font-size: 25px;
+ font-size: 20px;
  margin-top: 10px;
 }
 

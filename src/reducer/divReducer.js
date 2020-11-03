@@ -1,4 +1,3 @@
-
 import { DIV_SUM } from '../constant/calculation';
 
 export const divReducer = (state = { divv: '' }, action) => {

@@ -1,4 +1,3 @@
-
 import { MUL_SUM } from '../constant/calculation';
 
 export const mulReducer = (state = { mull: '' }, action) => {

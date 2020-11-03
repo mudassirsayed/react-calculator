@@ -1,4 +1,3 @@
-
 import { SUB_SUM } from '../constant/calculation';
 
 export const subReducer = (state = { subb: '' }, action) => {

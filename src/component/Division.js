@@ -5,8 +5,6 @@ import { divAction } from '../action/divAction';
 export default function Division(props) {
     const { valueone, valuetwo } = props;
     const dispatch = useDispatch()
-
-
     const Division = (e) => {
         if(valueone==='' && valuetwo===''){
             return; 

@@ -1,4 +1,3 @@
-
 import { ADD_SUM } from '../constant/calculation';
 
 export const addReducer = (state = { sum: '' }, action) => {
