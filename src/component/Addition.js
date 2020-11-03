@@ -7,11 +7,14 @@ export default function Addition(props) {
     const { valueone, valuetwo } = props;
     const dispatch = useDispatch()
     const Addition = (e) => {
+        if(valueone==='' && valuetwo===''){
+            return; 
+          }
         dispatch(addAction(valueone, valuetwo))
     }
     return (
         <div>
-            <button onClick={Addition}>+</button>
+            <button className="addbtn" onClick={Addition}>Add</button>
         </div>
     )
 }

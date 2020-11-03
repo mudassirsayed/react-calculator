@@ -1,34 +1,140 @@
-.main{
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-inner-outer-button{
+  -webkit-appearance: none;
+  margin:0;
+}
+
+
+.main_div{
+  width:100%;
+  height: 100vh;
+  background: #6983aa;
   display:flex;
-  align-items:center;
-  justify-content:center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
-.input{
-  display:flex;
-  flex-direction: column;
+
+.center_div{
+  width:30%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  margin:0;
+  padding: 0;
 }
-input{
-  margin-bottom: 15px;
+
+
+.com_one{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
 }
+.com_two{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap:30px;
+}
+/* button{
+  font-size:55px;
+ width:100px;
+  margin: 20px;
+  padding: 10px 0;
+  background-color: blueviolet;
+} */
 .btn{
   display:flex;
   justify-content: center;
   align-items: center ;
   font-size: 100px;
+  gap: 30px;
+  flex-direction: column;
 }
 button{
   background: blueviolet;
   border-radius: 1px;
   color: white;
+  width: 150px;
+  height: 120px;
+  font-size: 15px;
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button{
-  -webkit-appearance: none;
-  margin: 0;
+.addbtn:before{
+content:"+";
+line-height: 100px;
+display: block;
+margin: 0 auto;
+font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
 }
-.total{
-  display:flex;
-  justify-content: center;
-  align-items: center ;
+.subbtn:before{
+ content:"-";
+line-height: 100px;
+display: block;
+margin: 0 auto;
+font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
+}
+.mulbtn:before{
+ content:"x";
+line-height: 100px;
+display: block;
+margin: 0 auto;
+font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
+}
+.divbtn:before{
+ content:"/";
+line-height: 100px;
+display: block;
+margin: 0 auto;
+font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 42px; letter-spacing: normal;
+}
+button:active{
+  background-color: gray;
+}
+
+input{
+  margin-bottom: 20px;
+  text-align: center;
+  height: 30px;
+  border:none;
+  background: transparent;
   font-size: 20px;
+  font-weight: 500;
+  width: 80%;
+  border-bottom: 2px solid #8566aa;
+  outline:none;
+}
+
+header{
+  background-color: blueviolet;
+  font-size: 30px;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+padding-top: 10px;
+}
+
+.total{
+ display: flex;
+ margin-left: 50px;
+ font-size: 25px;
+ margin-top: 10px;
+}
+
+::placeholder{
+  text-align: left;
 }

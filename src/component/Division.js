@@ -8,12 +8,15 @@ export default function Division(props) {
 
 
     const Division = (e) => {
+        if(valueone==='' && valuetwo===''){
+            return; 
+          }
         dispatch(divAction(valueone, valuetwo))
     }
 
     return (
         <div>
-            <button onClick={Division}>/</button>
+            <button className="divbtn" onClick={Division}>Divide</button>
         </div>
     )
 }

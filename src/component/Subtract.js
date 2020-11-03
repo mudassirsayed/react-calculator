@@ -8,12 +8,15 @@ export default function Subtract(props) {
 
 
     const Subtraction = (e) => {
+        if(valueone==='' && valuetwo===''){
+            return; 
+          }
         dispatch(subAction(valueone, valuetwo))
     }
 
     return (
         <div>
-            <button onClick={Subtraction}>-</button>
+            <button className="subbtn" onClick={Subtraction}>Substract</button>
         </div>
     )
 }
